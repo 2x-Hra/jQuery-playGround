@@ -33,3 +33,11 @@ Set :: $("a").attr("href","https://www.google.com");
 Get :: $("a").attr("href");
 */
 $("a").attr("href","https://www.google.com");
+
+/*
+Event Listener
+*/
+$("h1").click( function() {
+    $("h1").css("color","red");
+});
+
