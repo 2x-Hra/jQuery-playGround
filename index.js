@@ -41,3 +41,13 @@ $("h1").click( function() {
     $("h1").css("color","red");
 });
 
+
+/*
+// Java Script Add multi element Event listenet
+
+for(var i = 0 ; i< 5 ; i ++){
+    document.querySelectorAll("button")[i].addEventListener("click",function(){
+        document.querySelector("h1").style.color = "purple"        
+    });
+}
+*/
