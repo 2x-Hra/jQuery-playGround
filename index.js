@@ -51,3 +51,7 @@ for(var i = 0 ; i< 5 ; i ++){
     });
 }
 */
+// NOW IN JQUERY
+$("button").click(function() {
+    $("h1").css("color","purple");    
+});
