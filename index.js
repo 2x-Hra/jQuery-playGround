@@ -19,3 +19,9 @@ $("h1").addClass("big-title");
 $("h1").addClass("big-title marginAll-50");
 //Remove Class
 $("h1").removeClass("big-title");
+
+/*
+Edit .textContent and innerHtml
+*/
+$("button").html("<em> Hiii </em>");  // ===  .innerHtml()
+$("button").text("Hello");           //  === .textContent() 
