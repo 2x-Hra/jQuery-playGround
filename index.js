@@ -11,6 +11,11 @@ Edit css of an element  ( Warning : Editing css property from JS file is not a a
 JavaScript   ::   document.getElementById("h1").style.color = "red";
 jQuery       ::   $("tag").css("propertName","value");
 */
-$("h1").css("color","red"); 
+// $("h1").css("color","red"); 
 
-$("h1").addClass()
+//Add Class
+$("h1").addClass("big-title");
+//Add Multiple Class
+$("h1").addClass("big-title");
+//Remove Class
+$("h1").removeClass("big-title");
