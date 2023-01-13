@@ -9,7 +9,8 @@ document.querySelectorAll("button")  ===  $("button")
 /*
 Edit css of an element  ( Warning : Editing css property from JS file is not a appropriate thing try to make css class and add it to the tag instead. )
 JavaScript   ::   document.getElementById("h1").style.color = "red";
-jQuery       ::   $("tag").css("propertName","value");
+jQuery       ::   $("tag").css("propertName","value");  
+ and to get the data just use it without Value :: $("tag").css("propertName");
 */
 // $("h1").css("color","red"); 
 
