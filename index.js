@@ -26,3 +26,10 @@ Edit .textContent and innerHtml
 */
 $("button").html("<em> Hiii </em>");  // ===  .innerHtml()
 $("button").text("Hello");           //  === .textContent() 
+
+/*
+Edit attribute
+Set :: $("a").attr("href","https://www.google.com");
+Get :: $("a").attr("href");
+*/
+$("a").attr("href","https://www.google.com");
