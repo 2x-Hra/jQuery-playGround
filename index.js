@@ -16,6 +16,6 @@ jQuery       ::   $("tag").css("propertName","value");
 //Add Class
 $("h1").addClass("big-title");
 //Add Multiple Class
-$("h1").addClass("big-title");
+$("h1").addClass("big-title marginAll-50");
 //Remove Class
 $("h1").removeClass("big-title");
