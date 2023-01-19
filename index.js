@@ -56,6 +56,7 @@ $("button").click(function() {
     $("h1").css("color","purple");    
 });
 
+// KeyDown EventListener
 $(document).keydown(function(event){
     $("h1").text(event.key)
 })
