@@ -61,7 +61,7 @@ $(document).keydown(function(event){
     $("h1").text(event.key)
 })
 
-// ON eventListener  == betterway
+// ON eventListener  == betterway    You can add Any Events   ( Check the MDN DOC https://developer.mozilla.org/en-US/docs/Web/Events )
 $("h1").on("mouseover", function(){
     $("h1").css("color","red");
 });
