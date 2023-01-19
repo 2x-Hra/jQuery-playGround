@@ -57,11 +57,21 @@ $("button").click(function() {
 });
 
 // KeyDown EventListener
+/*
 $(document).keydown(function(event){
     $("h1").text(event.key)
 })
+*/
+
 
 // ON eventListener  == betterway    You can add Any Events   ( Check the MDN DOC https://developer.mozilla.org/en-US/docs/Web/Events )
 $("h1").on("mouseover", function(){
     $("h1").css("color","red");
 });
+
+// After Before Append Prepend  Methods
+
+$("h1").after("<button>new After button</button>");     // it will add after the h1
+$("h1").before("<button>new Before button</button>");   // it will add before the h1
+$("h1").append("<button>new Append button</button>");   // it will add inside the h1 tag but after the text inside
+$("h1").prepend("<button>new Prepend button</button>"); // it will add inside the h1 tag but before the text inside
