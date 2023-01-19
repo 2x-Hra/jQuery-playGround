@@ -60,3 +60,8 @@ $("button").click(function() {
 $(document).keydown(function(event){
     $("h1").text(event.key)
 })
+
+// ON eventListener  == betterway
+$("h1").on("mouseover", function(){
+    $("h1").css("color","red");
+});
