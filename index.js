@@ -96,6 +96,8 @@ $("button").remove()     // will remove all the Button tags
     $("h1").slideToggle();
 */
 $("button").on("click", function() {
-    $("h1").fadeToggle();
+    // $("h1").fadeToggle();
+    $("h1").animate({margin:"20%"})     // add only css with Numeric Value
+    $("h1").slideUp().slideDown().animate({opacity:0.5});   // You can Queue methods like this , this will do them in order
 })
 
