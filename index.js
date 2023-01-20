@@ -81,3 +81,21 @@ $("h1").prepend("<button>new Prepend button</button>"); // it will add inside th
 $("button").remove()     // will remove all the Button tags
 
 */
+
+/*
+    jQuery Animation
+
+    $("h1").hide();
+    $("h1").show();
+    $("h1").toggle();
+    $("h1").fadeOut();
+    $("h1").fadeIn();
+    $("h1").fadeToggle();
+    $("h1").slideDown();
+    $("h1").slideUp();
+    $("h1").slideToggle();
+*/
+$("button").on("click", function() {
+    $("h1").fadeToggle();
+})
+
