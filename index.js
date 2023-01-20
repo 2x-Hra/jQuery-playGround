@@ -73,5 +73,11 @@ $("h1").on("mouseover", function(){
 
 $("h1").after("<button>new After button</button>");     // it will add after the h1
 $("h1").before("<button>new Before button</button>");   // it will add before the h1
-$("h1").append("<button>new Append button</button>");   // it will add inside the h1 tag but after the text inside
-$("h1").prepend("<button>new Prepend button</button>"); // it will add inside the h1 tag but before the text inside
+$("h1").append("<button>new Append button</button>");   // it will add inside the h1 tag but after the Content
+$("h1").prepend("<button>new Prepend button</button>"); // it will add inside the h1 tag but before the Content
+
+//Remove
+/*
+$("button").remove()     // will remove all the Button tags
+
+*/
